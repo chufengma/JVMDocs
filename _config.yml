@@ -1,6 +1,6 @@
 permalink: /:title
 
 title: 读书笔记-深入理解Java虚拟机
-url: http://onefengma.com/JVMDocs
+url: http://onefengma.com/JVMDocs/
 feed: /atom.xml
 author_info: <a href="http://onefengma.com/">Fengma</a>
