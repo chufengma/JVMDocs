@@ -1,7 +1,16 @@
-permalink: /:title
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-baseurl: /JVMDocs
-title: 读书笔记-深入理解Java虚拟机
-url: http://onefengma.com/JVMDocs/
-feed: /atom.xml
-author_info: <a href="http://onefengma.com/">Fengma</a>
+# Site settings
+title: 搔葛隔发sao
+baseurl: "/b" # the subpath of your site, e.g. /blog
+url: "http://saogege.github.io" # the base hostname & protocol for your site
+github: "https://github.com/saogege" # github home page for saogege
+#blog link settings
+permalink: date
+# Build settings
+markdown: kramdown
