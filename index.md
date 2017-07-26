@@ -16,8 +16,7 @@ layout: default
         
         {% for post in site.categories.blog %}
         <li>
-        <p>{{ sit.url }}/{{ post.url }}, {{ post.id }}</p>
-          <a href="{{ post.url }}" class="title">{{ post.title }}</a>
+          <a href="{{ sit.url }}{{ post.url }}" class="title">{{ post.title }}</a>
           <div class="title-desc">{{ post.description }}</div>
         </li>
         {% endfor %}
